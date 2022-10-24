@@ -2,5 +2,21 @@ import React, { useState } from "react";
 
 
 export default function Footer(){
-    return <footer>this is a footer</footer>
+    const mistyrose = "#f7e5e4";
+    const blackshadow = "#bbacaf";
+    const lightred = "#ffd2cf";
+    const melon = "#f6acad";
+  
+    const styles = {
+      footer: {
+        background: melon,
+        color: "white",
+        width: "100%",
+        position: 'absolute',
+        bottom: 0,
+      },
+    };
+
+
+    return <footer style={styles.footer}>this is a footer</footer>
 }
