@@ -14,6 +14,8 @@ export default function Footer(){
         width: "100%",
         position: 'absolute',
         bottom: 0,
+        padding: '5px',
+        textAlign: 'center',
       },
     };
 

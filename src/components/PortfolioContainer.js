@@ -27,7 +27,7 @@ export default function Container() {
 
   return (
     <div className="page-container">
-      <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />
     </div>
