@@ -34,3 +34,7 @@ body{
     background-color: var(--blackshadow);
     text-shadow: 1px 1px var(--lightred);
 }
+
+.home-section{
+  border: 10px solid white;
+}

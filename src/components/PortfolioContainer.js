@@ -11,7 +11,6 @@ export default function Container() {
   const [currentPage, setCurrentPage] = useState("Home");
 
   const renderPage = () => {
-    console.log(renderPage);
     if (currentPage === "Home") {
       return <Home />;
     } else if (currentPage === "Portfolio") {
