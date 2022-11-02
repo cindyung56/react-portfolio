@@ -1,94 +1,65 @@
 import React from "react";
-import Container from "../PortfolioContainer";
 import profilePic from "../../assets/profile-pic.jpg";
 
 export default function Home() {
-  const mistyrose = "#f7e5e4";
-  const melon = "#f6acad";
-  const blackshadow = "#bbacaf";
-  const lightred = "#ffd2cf";
-
-  const styles = {
-    aboutBody: {
-      background: lightred,
-      margin: "0 50px 30px",
-      borderRadius: "10px",
-      zIndex: '1',
-      width: "60%",
-    },
-    externalLinks: {
-      background: "white",
-    },
-    profileImg: {
-      width: "50%",
-      margin: "0 auto",
-      boxShadow: `3px 3px 0.9em ${melon}`,
-      position: 'absolute',
-      zIndex: '0.9',
-    },
-    img: {
-      objectFit: "contain",
-      maxWidth: "100%",
-    },
-    h2: {
-      background: blackshadow,
-      color: "white",
-      border: "2px solid white",
-      textAlign: "center",
-      fontSize: "200%",
-      fontWeight: "bolder",
-      borderRadius: "10px",
-      padding: "5px 0",
-    },
-    i: {
-      color: blackshadow,
-      fontSize: "200%",
-    },
-  };
-
   return (
-    <div id="homeBody">
-
-      {/* <section
-        className="profile-img home-section"
-        style={styles.profileImg}
-      >
-        <img style={styles.img} src={profilePic}></img>
-      </section>
-
-      <section style={styles.aboutBody} className="p-3 home-section ">
-        <div className="about-me">
-          <h2 style={styles.h2}>About Me</h2>
-          <p>
-            Hello! I'm Cindy! I'm a full stack developer with a focus in
-            front-end design and development. I namely use HTML, CSS,
-            Javascript, Python, node.js, express.js, and more! I graduated from
-            UC Irvine with a Bachelor's degree in Informatics, specializing in
-            Human Computer Interaction and the Full-Stack Coding Bootcamp from
-            UCLA Extension with a certificate in full-stack development. I
-            currently work as a Coding Coach at theCoderSchool Pasadena, where I
-            teach kids and adults how to code in basic Python, Java, and
-            Javascript.
-          </p>
-          <p>Fun facts about myself:</p>
-          <ul>
-            <li>I can't ride a bicycle.</li>
-            <li>
-              I'm self-taught in Japanese and have been learning on my own for
-              more than 10 years.
-            </li>
-            <li>
-              My hobbies include crocheting, watching cat videos, and playing
-              video games.
-            </li>
-            <li>My dream is to become a cat lady.</li>
-          </ul>
+    <div className="home">
+      <div className="home-body row">
+        <div className="col-lg-8 col-md-12">
+          <section className="title-section ">
+            <h1 className="job-title">Full-Stack Developer</h1>
+          </section>
+          <section className="description-section">
+            <p>
+              Hello! I'm Cindy Ung! I'm a full-stack developer with experience
+              in UI/UX Design. I mostly use HTML, CSS, Javascript, Python,
+              node.js, express.js, and more! I graduated from UC Irvine with a
+              Bachelor's degree in Informatics, specializing in Human Computer
+              Interaction. I also graduated from the Full-Stack Coding Bootcamp
+              from UCLA Extension with a certificate in full-stack development.
+              I currently work as a Coding Coach at theCoderSchool Pasadena,
+              where I teach aspiring programmers how to code in basic Python, Java,
+              and Javascript.
+            </p>
+            <p>Fun facts about myself:</p>
+            <ul>
+              <li>
+                I was crowned Back End Master & Most Likely to Inspire Future
+                Coders in the bootcamp I attended.
+              </li>
+              <li>I can't ride a bicycle.</li>
+              <li>
+                I'm self-taught in Japanese and have been learning on my own for
+                more than 10 years.
+              </li>
+              <li>
+                My hobbies include crocheting, watching cat videos, and playing
+                video games.
+              </li>
+              <li>My dream is to become a cat lady.</li>
+            </ul>
+          </section>
         </div>
-      </section>
+        <section className="col-lg-4 col-md-12 img-section text-center mt-3">
+          <img className="profile-img" src={profilePic}></img>
+        </section>
+      </div>
 
-      <section style={styles.externalLinks} className="p-3 row text-center">
-        <i className="bi bi-linkedin" style={styles.i}></i>
-      </section> */}
+      <div className="skills-section text-center m-3">
+        <i class="devicon-html5-plain-wordmark"></i>
+        <i class="devicon-css3-plain-wordmark"></i>
+        <i class="devicon-javascript-plain"></i>
+        <i class="devicon-jquery-plain-wordmark"></i>
+        <i class="devicon-mysql-plain-wordmark"></i>
+        <i class="devicon-mongodb-plain"></i>
+        <i class="devicon-npm-original-wordmark"></i>
+        <i class="devicon-nodejs-plain-wordmark"></i>
+        <i class="devicon-python-plain-wordmark"></i>
+        <i class="devicon-java-plain-wordmark"></i>
+        <i class="devicon-handlebars-plain-wordmark"></i>
+        <i class="devicon-react-original-wordmark"></i>
+        <i class="devicon-vscode-plain"></i>
+      </div>
     </div>
   );
 }

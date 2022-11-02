@@ -8,7 +8,7 @@ export default function Header({currentPage, handlePageChange}) {
     header: {
       background: melon,
       width: "100%",
-      'display': 'inline-flex',
+      display: 'inline-flex',
       justifyContent: 'space-between',
       marginBottom: '30px',
     },

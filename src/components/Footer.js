@@ -1,24 +1,14 @@
-import React, { useState } from "react";
-
+import React from "react";
 
 export default function Footer(){
-    const mistyrose = "#f7e5e4";
-    const blackshadow = "#bbacaf";
-    const lightred = "#ffd2cf";
-    const melon = "#f6acad";
-  
-    const styles = {
-      footer: {
-        background: melon,
-        color: "white",
-        width: "100%",
-        position: 'absolute',
-        bottom: 0,
-        padding: '5px',
-        textAlign: 'center',
-      },
-    };
+  const styles = {
+    i: {
+      marginLeft: '20px',
+    }
+  }
 
-
-    return <footer style={styles.footer}>this is a footer</footer>
+    return (<footer>
+      <a href="https://www.linkedin.com/in/cindyung56/"><i className="bi bi-linkedin"></i></a>
+      <a href="https://github.com/cindyung56"><i className="bi bi-github" style={styles.i}></i></a>
+    </footer>)
 }
