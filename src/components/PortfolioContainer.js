@@ -11,7 +11,6 @@ export default function Container() {
   const [currentPage, setCurrentPage] = useState("Home");
 
   const renderPage = () => {
-    console.log(renderPage);
     if (currentPage === "Home") {
       return <Home />;
     } else if (currentPage === "Portfolio") {
@@ -27,7 +26,7 @@ export default function Container() {
 
   return (
     <div className="page-container">
-      <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />
     </div>
