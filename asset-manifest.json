@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.e8945927.css",
+    "main.js": "/react-portfolio/static/js/main.aa461c36.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/profile-pic.jpg": "/react-portfolio/static/media/profile-pic.7303a3fc895b2ed330df.jpg",
+    "static/media/tech-blog.jpg": "/react-portfolio/static/media/tech-blog.a314d6a6a939ee6b945f.jpg",
+    "static/media/food-adventure.jpg": "/react-portfolio/static/media/food-adventure.8bf836a6c412428e8443.jpg",
+    "static/media/i-choose-you.jpg": "/react-portfolio/static/media/i-choose-you.42288424d82022345b5d.jpg",
+    "static/media/weather-dashboard.jpg": "/react-portfolio/static/media/weather-dashboard.9208c6fca4ecd41bc8ac.jpg",
+    "static/media/resume-creator.jpg": "/react-portfolio/static/media/resume-creator.56148f9b3d96f44cbff6.jpg",
+    "static/media/bootstrap-icons.woff?": "/react-portfolio/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
+    "static/media/bootstrap-icons.woff2?": "/react-portfolio/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.4177d602f29a5b6ad346.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.e8945927.css.map": "/react-portfolio/static/css/main.e8945927.css.map",
+    "main.aa461c36.js.map": "/react-portfolio/static/js/main.aa461c36.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8945927.css",
+    "static/js/main.aa461c36.js"
+  ]
+}
