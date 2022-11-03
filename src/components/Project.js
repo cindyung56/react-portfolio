@@ -16,10 +16,11 @@ export default function Project({ projectTitle, projectLink, gitHubLink, project
     },
     projectTitleStyle: {
       backgroundColor: blackshadow,
+      fontSize: '220%',
       color: "white",
       width: "100%",
       textAlign: "left",
-      padding: '0 10px',
+      padding: '5px 10px',
       borderRadius: "10px 10px 0 0",
     },
   };

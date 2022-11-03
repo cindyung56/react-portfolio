@@ -72,7 +72,6 @@ form input{
   color: var(--melon);
   font-weight: bolder;
   text-shadow: 0.1em 0.1em 0.1em var(--lightred);
-  
 }
 
 .download-resume a{
@@ -156,7 +155,6 @@ form input{
   opacity: 1;
   box-shadow: 0.5em 0.5em 0.3em var(--melon);
 }
-
 
 .project-link{
   float: right;
