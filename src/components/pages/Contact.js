@@ -36,12 +36,16 @@ export default function Contact() {
     } else if (!message) {
       setErrorMessage("No message inputted");
       return;
+    } else if (!name){
+      setErrorMessage("No name inputted");
+      return;
     }
 
     // If successful, we want to clear out the input after registration.
     setName("");
     setEmail("");
-    alert(`Hello ${name}`);
+    setMessage("");
+    alert(`Form received!`);
   };
 
   return (
